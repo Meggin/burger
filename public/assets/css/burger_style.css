@@ -10,9 +10,10 @@ header {
 }
 
 li {
-  padding: 5px;
-  margin: 5px;
   list-style: none;
+}
+
+.available-burger {
 }
 
 #burger-list-item {
@@ -20,6 +21,7 @@ li {
   	padding-left: 5%;
   	padding-top: 1%;
   	padding-bottom: 2%;
+  	border: 1%;
 }
 
 #burger-submit {
@@ -28,14 +30,30 @@ li {
 }
 
 .devour-burger {
+	width: 44%;
 	background: white;
   	padding-left: 5%;
   	padding-top: 1%;
   	padding-bottom: 2%;
 }
 
+#devour-button {
+	position: relative;
+	bottom: -14px;
+}
+
+.does-this-work {
+	width:	44%;
+	background: white;
+	padding-left: 5%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	margin: 1%;
+}
+
 section {
 	float: left;
+	width: 40%;
 }
 
 span {
