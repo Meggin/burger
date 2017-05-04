@@ -30,8 +30,10 @@ li {
 }
 
 .devour-burger {
-	width: 44%;
+	width: 60%;
 	background: white;
+	border-style: ridge;
+	border-width: 1px;
   	padding-left: 5%;
   	padding-top: 1%;
   	padding-bottom: 2%;
@@ -40,10 +42,11 @@ li {
 #devour-button {
 	position: relative;
 	bottom: -14px;
+	margin-left: 4%;
 }
 
-.does-this-work {
-	width:	44%;
+.burgers {
+	width:	70%;
 	background: white;
 	padding-left: 5%;
 	padding-top: 1%;
@@ -51,9 +54,13 @@ li {
 	margin: 1%;
 }
 
+#burger-list {
+	margin-left: 20%;
+}
+
 section {
 	float: left;
-	width: 40%;
+	width: 50%;
 }
 
 span {
@@ -62,6 +69,8 @@ span {
 
 #new-burger {
 	clear: both;
+	margin-left: 24%;
+	width: 55%;
 }
 
 p {
@@ -69,9 +78,9 @@ p {
 }
 
 #hamburger-image {
-	width: 25%;
+	width: 20%;
 	position: relative;
-	left: 37%;
+	left: 39%;
 }
 
 #new-burger-submit {

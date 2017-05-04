@@ -5,11 +5,11 @@
 
 <div class="main-container">
   <section id="available-hamburgers">
-    <ul>
+    <ul id="burger-list">
       {{#each burgers}}
         {{#unless this.devoured}}
           <li class="available-burger">
-            <span class="does-this-work">
+            <span class="burgers">
               {{this.id}}
               {{this.burger_name}}
             </span>
