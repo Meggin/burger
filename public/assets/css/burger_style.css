@@ -22,6 +22,11 @@ li {
   	padding-bottom: 2%;
 }
 
+#burger-submit {
+	float: right;
+	vertical-align: top;
+}
+
 .devour-burger {
 	background: white;
   	padding-left: 5%;
@@ -30,6 +35,10 @@ li {
 }
 
 section {
+	float: left;
+}
+
+span {
 	float: left;
 }
 

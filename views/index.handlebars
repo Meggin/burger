@@ -9,15 +9,16 @@
       {{#each burgers}}
         {{#unless this.devoured}}
           <li class="available-burger">
-            <div id="burger-list-item">
+            <span id="burger-list-item">
               {{this.id}}
               {{this.burger_name}}
-            </div>
-
-            <form id="devour-button" action="/{{this.id}}?_method=PUT" method="POST">
-              <input type="hidden" name="devoured" value="true">
-              <button type="submit">Devour it!</button>
-            </form>
+            </span>
+            <span>
+              <form id="devour-button" action="/{{this.id}}?_method=PUT" method="POST">
+                <input type="hidden" name="devoured" value="true">
+                <button type="submit">Devour it!</button>
+              </form>
+            </span>
           </li>
         {{/unless}}
       {{/each}}
