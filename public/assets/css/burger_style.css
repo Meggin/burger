@@ -1,7 +1,63 @@
+html {
+	background-color: #F5D769 ;
+	font-family: monospace;
+}
+
+header {
+	font-size: 30px;
+	text-align: center;
+	color: red;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  list-style: none;
+}
+
+#burger-list-item {
+	background: white;
+  	padding-left: 5%;
+  	padding-top: 1%;
+  	padding-bottom: 2%;
+}
+
+.devour-burger {
+	background: white;
+  	padding-left: 5%;
+  	padding-top: 1%;
+  	padding-bottom: 2%;
+}
+
+section {
+	float: left;
+}
+
+#new-burger {
+	clear: both;
+}
+
+p {
+	text-align: center;
+}
+
+#hamburger-image {
+	width: 25%;
+	position: relative;
+	left: 37%;
+}
+
+#new-burger-submit {
+	position: relative;
+	left: 40%;
+	background-color: #4e91fd;
+	color: white;
+}
+
+#new-burger-text {
+	width: 45%;
+	position: relative;
+	left: 25%;
 }
 
 .label {
@@ -11,7 +67,6 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
 }
 
 .form-group {
