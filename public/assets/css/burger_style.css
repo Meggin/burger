@@ -13,7 +13,21 @@ li {
   list-style: none;
 }
 
-.available-burger {
+p {
+	text-align: center;
+}
+
+section {
+	float: left;
+	width: 50%;
+}
+
+span {
+	float: left;
+}
+
+#burger-list {
+	margin-left: 20%;
 }
 
 #burger-list-item {
@@ -29,58 +43,22 @@ li {
 	vertical-align: top;
 }
 
-.devour-burger {
-	width: 60%;
-	background: white;
-	border-style: ridge;
-	border-width: 1px;
-  	padding-left: 5%;
-  	padding-top: 1%;
-  	padding-bottom: 2%;
-}
-
 #devour-button {
 	position: relative;
 	bottom: -14px;
 	margin-left: 4%;
 }
 
-.burgers {
-	width:	70%;
-	background: white;
-	padding-left: 5%;
-	padding-top: 1%;
-	padding-bottom: 2%;
-	margin: 1%;
-}
-
-#burger-list {
-	margin-left: 20%;
-}
-
-section {
-	float: left;
-	width: 50%;
-}
-
-span {
-	float: left;
+#hamburger-image {
+	width: 20%;
+	position: relative;
+	left: 39%;
 }
 
 #new-burger {
 	clear: both;
 	margin-left: 24%;
 	width: 55%;
-}
-
-p {
-	text-align: center;
-}
-
-#hamburger-image {
-	width: 20%;
-	position: relative;
-	left: 39%;
 }
 
 #new-burger-submit {
@@ -96,8 +74,16 @@ p {
 	left: 25%;
 }
 
-.label {
-  font-weight: bold;
+.available-burger {
+}
+
+.burgers {
+	width:	70%;
+	background: white;
+	padding-left: 5%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	margin: 1%;
 }
 
 .create-update-form {
@@ -105,6 +91,99 @@ p {
   margin: 5px;
 }
 
+.devour-burger {
+	width: 60%;
+	background: white;
+	border-style: ridge;
+	border-width: 1px;
+  	padding-left: 5%;
+  	padding-top: 1%;
+  	padding-bottom: 2%;
+}
+
 .form-group {
   margin-bottom: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+/* 
+  These rules take effect when the browser's width
+  is 640px or less.
+*/
+@media screen and (max-width: 640px) {
+	header {
+		font-size: 35px;
+	}
+
+	p {
+    	text-align: center;
+    	position: relative;
+    	right: 23%;
+    	font-size: 20px;
+	}
+
+	section {
+		width: 100%;
+	}
+
+	#burger-list {
+		margin-left: 0;
+	}
+
+	#devoured-hamburgers {
+		display: none;
+	}
+
+	#hamburger-image {
+		width: 50%;
+		left: 25%;
+	}
+
+	#new-burger {
+		width: 100%;
+	}
+
+	#new-burger-submit {
+		position: relative;
+		left: 22%;
+		width: 40%;
+		height: 34px;
+		font-size: 24px;
+	}
+
+	#new-burger-text {
+		width: 90%;
+		left: 2%;
+		height: 75px;
+		font-size: 36px;
+	}
+
+	.burgers {
+		width: 90%;
+		font-size: 20px;
+		position: relative;
+		right: 4%;
+	}
+
+	.create-update-form {
+		width: 100%;
+		position: relative;
+		right: 24%;
+	}
+
+	.devour-button {
+		background-color: #4e91fd;
+		color: white;
+		font-size: 20px;
+		margin-left: -13px;
+		margin-top: -18px;
+		margin-bottom: 17px;
+	}
+
+	.form-group {
+		width: 100%;
+	}
 }
