@@ -133,6 +133,7 @@ span {
 		margin-left: 0;
 	}
 
+	/* Hide devoured list on mobile for better user experience. */
 	#devoured-hamburgers {
 		display: none;
 	}
